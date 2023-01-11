@@ -56,11 +56,21 @@ body h1{
 .bottompage{
     text-align: center;
     padding-bottom: 5px;
+    color: black;
 }
 
 .bottompage ul li {
     list-style: none;
     display: inline-block;
     padding: 5px;
+
 }
 
+.bottompage ul li a{
+    color: blue;
+    text-decoration: none;
+}
+.bottompage ul li a:hover{
+    color: gray;
+    transition: .4s;
+}
