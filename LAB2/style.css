@@ -1,32 +1,60 @@
 *{
+   padding: 0;
+   margin: 0;
+   font-family: sans-serif;
    font-weight: 100;
+   
 }
 
-body{
-    font-family: sans-serif;
+.navigation h1{
+    padding: 10px;
+    margin: 10px;
 }
 
 nav{
     display:flex;
     justify-content:space-between;
     color: black;
-    border: 10px;
+    border-bottom: 1px solid;
+  
 }
 
 nav ul li{
-    padding : 10px;
     list-style: none;
     display:inline-block;
+    padding: 15px;
+    margin: 10px;
+
 
 }
 
 nav ul li a {
     color:black;
     text-decoration: none;
+   
 }
 
 nav ul li a:hover{
     color: gray;
     transition: .4s;
+}
+
+body h1{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.Section {
+   padding: 5px;
+   margin: 5px;;
+}
+
+.Section ul {
+    margin-left: 10px;
+}
+
+.bottompage ul li {
+    list-style: none;
+    display: inline-block;
 }
 
