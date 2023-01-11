@@ -53,8 +53,14 @@ body h1{
     margin-left: 10px;
 }
 
+.bottompage{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
 .bottompage ul li {
     list-style: none;
     display: inline-block;
+    padding: 5px;
 }
 
