@@ -53,6 +53,11 @@ body h1{
     margin-left: 10px;
 }
 
+.Section ul li{
+    margin-left: 10px;
+    padding: 5px;
+}
+
 .bottompage{
     text-align: center;
     padding-bottom: 5px;
