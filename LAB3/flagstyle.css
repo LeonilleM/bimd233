@@ -1,0 +1,24 @@
+*{
+    margin: 20px;
+    background: white;
+}
+
+table{
+   border: none;
+   border-spacing: 0px;
+}
+
+table td{
+    width: 800px;
+    height: 50px;
+    border:none;
+    
+}
+table tr{
+    border-collapse: collapse;
+    border:none;
+}   
+
+#spacing {
+    margin: 30px;
+}

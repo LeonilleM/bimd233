@@ -1,0 +1,15 @@
+*{
+    font-family: sans-serif;
+}
+
+caption{
+    font-size: xx-large;
+}
+
+table, th, td{
+    border:1px solid;
+}
+
+#date{
+    text-align: center;
+}
