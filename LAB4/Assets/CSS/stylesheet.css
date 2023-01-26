@@ -7,10 +7,19 @@
     font-family: 'Quicksand', sans-serif;
     font-weight: 100;
     font-style: normal;
-    line-height: 1.15;
     color: rgba(0, 0, 0, 0.8);
 }
 
-img {
-    border: 3px solid black;
+img{
+    border:2px solid black;
+}
+
+img:hover {
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 0 10px #333;
+    opacity: .8;
+    -webkit-box-shadow: 0 0 10px #333;
+    -moz-box-shadow: 0 0 10px #333;
+    -o-box-shadow: 0 0 10px #333;
+    -ms-box-shadow: 0 0 10px #333;
 }
