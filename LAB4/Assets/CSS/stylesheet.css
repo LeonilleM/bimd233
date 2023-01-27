@@ -7,19 +7,27 @@
     font-family: 'Quicksand', sans-serif;
     font-weight: 100;
     font-style: normal;
-    color: rgba(0, 0, 0, 0.8);
+    color: rgb(255, 255, 255,);
 }
-
+body{
+     background-color: #1f1f1f;
+}
 img{
-    border:2px solid black;
+    border:2px solid rgb(253, 253, 253);
 }
 
 img:hover {
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
     box-shadow: 0 0 10px #333;
-    opacity: .8;
-    -webkit-box-shadow: 0 0 10px #333;
-    -moz-box-shadow: 0 0 10px #333;
-    -o-box-shadow: 0 0 10px #333;
-    -ms-box-shadow: 0 0 10px #333;
+    opacity: .5;
+}
+
+a{
+    font-size: x-large;
+    text-decoration:none;
+    color:white;
+}
+a:hover{
+    color:rgb(99, 99, 99);
+    transition: .75s;
 }
