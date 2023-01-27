@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Quicksand:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+p,h1,h2,h3,h4{
+color:white;
+font-family: 'Inter', sans-serif;
+font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background-color: #1f1f1f;
+}
+
+a{
+   text-decoration: none;
+   color:white;
+}
+
+a:hover{
+    color:aquamarine;
+}
