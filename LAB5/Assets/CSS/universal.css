@@ -3,24 +3,20 @@
 *{
     margin:0;
     padding: 0;
-   
+   box-sizing: border-box;
 }
 body{
     font-family: 'Inter', sans-serif;
+    word-spacing: 1.4px;
+    height: 100%;
 }
 
 .container{
    display:flex;
-   margin-left: 5rem;
-   margin-right: 5rem;
-   border:2px solid black;
-}
-.box{
-    height: 150px;
-    width: 150px;
-    border: 1px solid black;
+   margin:auto;
+   justify-content: space-around;
+   border: 1px solid black;
 }
 .playList{
-    border: 1px solid yellow;
-    justify-content: space-between;
+
 }
