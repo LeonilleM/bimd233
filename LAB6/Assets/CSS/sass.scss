@@ -1,0 +1,7 @@
+$flag-height: 400px;
+$aspect-ratio: 16/9;
+
+body{
+    height: $flag-height;
+    aspect-ratio: $aspect-ratio;
+}
