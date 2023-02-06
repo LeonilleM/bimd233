@@ -1,7 +1,27 @@
-.red_stripe {
-    background-color: rgb(	179, 25, 66);
+#flag {
+  height: 400px;
+  aspect-ratio: 1.7777777778;
 }
 
-#starcell{
-    background: rgb(10, 49, 97);
+.stripes {
+  width: 500px;
+  height: 25px;
 }
+
+.red_stripe {
+  background-color: #B31942;
+}
+
+#starcell {
+  background-color: #0A3161;
+}
+
+#stars {
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+/*# sourceMappingURL=flagstyle.css.map */

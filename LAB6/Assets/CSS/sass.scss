@@ -1,7 +1,31 @@
 $flag-height: 400px;
 $aspect-ratio: 16/9;
+$red-stripe: #B31942;
+$blue-background: #0A3161;
 
-body{
-    height: $flag-height;
+
+#flag{
+    height:$flag-height;
     aspect-ratio: $aspect-ratio;
+}
+
+.stripes{
+    width: 500px;
+    height: 25px;
+}
+
+.red_stripe{
+    background-color: $red-stripe;
+}
+
+#starcell{
+    background-color: $blue-background;
+}
+
+#stars{
+   color: white;
+}
+
+table{
+    border-collapse: collapse;
 }
