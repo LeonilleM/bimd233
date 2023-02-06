@@ -1,11 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 *{
-    box-sizing: border-box;
+  padding:0;
+  margin:0;
+  box-sizing: border;
 }
 
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Inter', sans-serif;
 }
 
 h1,h2,h3,p{
     font-weight:100;
+}
+
+.container{
+
+    padding-left: 10px;
+    padding-right: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row{
+    display:flex;
+}
+
+.box{
+    border:1px solid grey;
+    height: 100px;
+    width: 120px;
+    text-align:center;
+    vertical-align: middle;
+}
+
+.box h3{
+    margin:auto;
 }

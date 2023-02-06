@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,74 +8,85 @@
     <title>Colors</title>
     <link rel="stylesheet" href="./Assets/CSS/style.css">
 </head>
+
 <body>
-    <div class ="container">
-        <div class ="row justify-content-center" style="margin-top:1rem">
-           <hr style="background: black">
-            <div class ="col-sm-auto">
-                <h2>RGB vs HSL comparison</h2>
+    <!-- background-color: hsl(89, 20%, 61%,.1)" -->
+    <!-- background-color: rgb(156,175,136,1) -->
+    <hr style="margin-top: 5vh;">
+    <div class="container">
+        <div class="row">
+            <h1>RGB vs. HSL Comparison.</h1>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row row-1">
+            <div class="box" style=" background: rgba(156,175,136,1);">
+                <h3>RGB SOLID</h3>
+            </div>
+            <div class="box" style=" background: rgba(156,175,136,.9);">
+                <h3>&alpha; = 0.9</h3>
+            </div>
+            <div class="box" style=" background: rgba(156,175,136,.8);">
+                <h3>&alpha; = 0.8</h3>
+            </div>
+            <div class="box" style=" background: rgba(156,175,136,.7);">
+                <h3>&alpha; = 0.7</h3>
+            </div>
+            <div class="box" style=" background: rgba(156,175,136,.6);">
+                <h3>&alpha; = 0.6</h3>
+            </div>
+            <div class="box" style=" background: rgba(156,175,136,.5);">
+                <h3>&alpha; = 0.5</h3>
+            </div>
+            <div class="box" style=" background: rgba(156,175,136,.4);">
+                <h3>&alpha; = 0.4</h3>
+            </div>
+            <div class="box" style=" background: rgba(156,175,136,.3);">
+                <h3>&alpha; = 0.3</h3>
+            </div>
+            <div class="box" style=" background: rgba(156,175,136,.2);">
+                <h3>&alpha; = 0.2</h3>
+            </div>
+            <div class="box" style=" background: rgba(156,175,136,.1);">
+                <h3>&alpha; = 0.1</h3>
             </div>
         </div>
-            <div class ="col" style="border:1px solid grey; background-color: rgb(156,175,136,1)">
-                <h1>RGB SOLID</h1>
+        <div class="row row-2">
+            <div class="box" style="background: hsl(89, 20%, 61%, 1)">
+                <h3>HSL SOLID</h3>
             </div>
-            <div class ="col" style="border:1px solid grey; background-color: rgba(156,175,136, .9)" >
-                
+            <div class="box" style="background: hsl(89, 20%, 61%, .9)">
+                <h3>&alpha; = 0.9</h3>
             </div>
-            <div class ="col" style="border:1px solid grey; background-color: rgba(156,175,136, .8)">
-
+            <div class="box" style="background: hsl(89, 20%, 61%, .8)">
+                <h3>&alpha; = 0.8</h3>
             </div>
-            <div class ="col" style="border:1px solid grey; background-color: rgba(156,175,136, .7)">
-
+            <div class="box" style="background: hsl(89, 20%, 61%, .7)">
+                <h3>&alpha; = 0.7</h3>
             </div>
-            <div class ="col" style="border:1px solid grey; background-color: rgba(156,175,136, .6)">
-
+            <div class="box" style="background: hsl(89, 20%, 61%, .6)">
+                <h3>&alpha; = 0.6</h3>
             </div>
-            <div class ="col" style="border:1px solid grey; background-color: rgba(156,175,136, .5)">
-
+            <div class="box" style="background: hsl(89, 20%, 61%, .5)">
+                <h3>&alpha; = 0.5</h3>
             </div>
-            <div class ="col" style="border:1px solid grey; background-color: rgba(156,175,136, .4)">
-
+            <div class="box" style="background: hsl(89, 20%, 61%, .4)">
+                <h3>&alpha; = 0.4</h3>
             </div>
-            <div class ="col" style="border:1px solid grey; background-color: rgba(156,175,136, .3)">
-
+            <div class="box" style="background: hsl(89, 20%, 61%, .3)">
+                <h3>&alpha; = 0.3</h3>
             </div>
-            <div class ="col" style="border:1px solid grey; background-color: rgba(156,175,136, .2)">
-
+            <div class="box" style="background: hsl(89, 20%, 61%, .2)">
+                <h3>&alpha; = 0.2</h3>
             </div>
-            <div class ="col" style="border:1px solid grey; background-color: rgba(156,175,136, .1)">
-
+            <div class="box" style="background: hsl(89, 20%, 61%, .1)">
+                <h3>&alpha; = 0.1</h3>
             </div>
-            <div class ="col" style="border:1px solid grey; background-color: hsl(89, 20%, 61%)">
-                <h1>HSL SOLID</h1>
-            </div>
-            <div class ="col" style="border:1px solid grey; background-color: hsl(89, 20%, 61%,.9)" >
-                
-            </div>
-            <div class ="col" style="border:1px solid grey; background-color: hsl(89, 20%, 61%,.8)">
-
-            </div>
-            <div class ="col" style="border:1px solid grey; background-color: hsl(89, 20%, 61%,.7)">
-
-            </div>
-            <div class ="col" style="border:1px solid grey; background-color: hsl(89, 20%, 61%,.6)">
-
-            </div>
-            <div class ="col" style="border:1px solid grey; background-color: hsl(89, 20%, 61%,.5)">
-
-            </div>
-            <div class ="col" style="border:1px solid grey; background-color: hsl(89, 20%, 61%,.4)">
-
-            </div>
-            <div class ="col" style="border:1px solid grey; background-color: hsl(89, 20%, 61%,.3)">
-
-            </div>
-            <div class ="col" style="border:1px solid grey; background-color: hsl(89, 20%, 61%,.2)">
-
-            </div>
-            <div class ="col" style="border:1px solid grey; background-color: hsl(89, 20%, 61%,.1)"></div>
-
-            </div>
+        </div>
     </div>
+
 </body>
+
 </html>
