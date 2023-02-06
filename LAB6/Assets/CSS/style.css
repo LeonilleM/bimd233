@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 *{
   padding:0;
@@ -8,19 +7,12 @@
 
 body{
     font-family: 'Inter', sans-serif;
-=======
-body{
-    font-family: 'Times New Roman', Times, serif;
-    height:400px;
-    aspect-ratio: 16/9;
->>>>>>> b8cfdf7b72377412a11a20f5a15007502dd5cbe9
 }
 
 h1,h2,h3,p{
     font-weight:100;
 }
 
-<<<<<<< HEAD
 .container{
 
     padding-left: 10px;
@@ -45,5 +37,3 @@ h1,h2,h3,p{
 .box h3{
     margin:auto;
 }
-=======
->>>>>>> b8cfdf7b72377412a11a20f5a15007502dd5cbe9
