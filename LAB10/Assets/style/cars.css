@@ -1,3 +1,7 @@
+nav a > h1{
+    color:black;
+}
+
 .custom-shape-divider-bottom-1677726560 {
     position: absolute;
     bottom: 0;
@@ -12,20 +16,4 @@
     display: block;
     width: calc(100% + 1.3px);
     height: 299px;
-}
-
-.custom-shape-divider-bottom-1677726560 .shape-fill {
-    fill: #9930FFB5;
-}
-
-.btn-outline-secondary{
-    border:1px solid #9930FFB5;
-    color: #9930FFB5;
-}
-.btn-outline-secondary:hover{
-    background-color: #9930FFB5;
-}
-
-nav a > h1{
-    color:black;
 }

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Geometry</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./Assets/style/geometry.css">
+
+</head>
+
+<body>
+    <!--Navbar-->
+    <header>
+        <nav class="nav">
+            <a class="nav-link" href="#" aria-current="page">
+                <h1 class="display-6">LAB10</h1>
+            </a>
+        </nav>
+    </header>
+
+    <!--Main-->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <h1 class="display-6">Calculate Geometry</h1>
+                <p>Please input three different numbers to get results</p>
+            </div>
+        </div>
+        <div class="row justify-content-center py-4">
+            <div class="col-md-4">
+                <form>
+                    <label for="radius-input-1">Radius 1</label>
+                    <input type="number" id="radius-input-1" class="form-control" name="radius"
+                        placeholder="15">
+                    <button type="submit" class="btn btn-outline-secondary">Calculate</button>
+                </form>
+                <div id="results-1" class="py-2"></div>
+            </div>
+            <div class="col-md-4">
+                <form>
+                    <label for="radius-input-2">Radius 2</label>
+                    <input type="number" id="radius-input-2" class="form-control" name="radius"
+                        placeholder="25">
+                    <button type="submit" class="btn btn-outline-secondary">Calculate</button>
+                </form>
+                <div id="results-2" class="py-2"></div>
+            </div>
+            <div class="col-md-4">
+                <form>
+                    <label for="radius-input-3">Radius 3</label>
+                    <input type="number" id="radius-input-3" name="radius" class="form-control"
+                        placeholder="35">
+                    <button type="submit" class="btn btn-outline-secondary">Calculate</button>
+                </form>
+                <div id="results-3" class="py-2"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="custom-shape-divider-bottom-1677726560">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </div>
+
+    <script src="./Assets/js/geometry.js">
+    </script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
