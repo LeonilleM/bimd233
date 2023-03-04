@@ -1,13 +1,17 @@
 let  countVal = 0;
+let secPassed = 0;
 const counterElement = document.getElementById('counterInput')
+const secsCounter = document.getElementById('seconds')
 
-setInterval(1000);
+
+setInterval( ()=>{
+    secPassed++;
+    secsCounter.innerHTML = `Seconds elapsed: ${secPassed}`
+},1000)
 
 setInterval ( ()=>{
     countVal++;
-    console.log(countVal)
-    counterElement.innerText = `My counter value: ${countVal} seconds: ${seconds}`
-    counter
+    counterElement.innerText = `My counter value: ${countVal}`
 }
 , 3000
 )
