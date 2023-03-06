@@ -1,0 +1,8 @@
+nav a > h1{
+    color:black;
+}
+
+nav a > h1:hover{
+    color:grey;
+    transition: .65s;
+}

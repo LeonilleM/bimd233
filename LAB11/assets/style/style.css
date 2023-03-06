@@ -1,0 +1,24 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+nav a > h1{
+    color:black;
+}
+
+nav a > h1:hover{
+    color:grey;
+    transition: .75s;
+}
+
+h3{
+    color: black;
+}
+
+body{
+    background-image: url(../photos/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+}
