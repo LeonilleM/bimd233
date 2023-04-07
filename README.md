@@ -1,7 +1,7 @@
 # BIMD233 Repository
 
 This repository contains my projects and assignments for the BIMD233 class, where I learned HTML, CSS, and JavaScript. 
-The repository is organized into folders for each lab from Lab1 to Lab10, showcasing the skills I learned throughout the course.
+The repository is organized into folders for each lab I've done within the class, showcasing the skills I learned throughout the course.
 
 ## Labs
 The repository is structured into the following folders:
